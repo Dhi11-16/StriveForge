@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h2>⚡ StriveForge Dashboard</h2>
+  <button onclick="logout()">Logout</button>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <h3>💪 Gym</h3>
+    <button onclick="add('gym')">Done</button>
+    <p id="gym">0</p>
+  </div>
+
+  <div class="card">
+    <h3>🧑‍💻 Coding</h3>
+    <button onclick="add('code')">Done</button>
+    <p id="code">0</p>
+  </div>
+
+  <div class="card">
+    <h3>📚 Reading</h3>
+    <button onclick="add('read')">Done</button>
+    <p id="read">0</p>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
